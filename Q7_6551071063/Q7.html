@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Định dạng văn bản</title>
+    <style>
+        body {
+            background: #fff;
+        }
+        .main-box {
+            width: 700px;
+            height: 400px;
+            margin: 30px auto;
+            border: 2px solid #888;
+            overflow: auto;
+            background: #fff;
+            padding: 18px 30px 18px 30px;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #006633;
+            text-align: center;
+            font-family: Times New Roman, Times, serif;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+        .subject {
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        .subject b {
+            font-size: 22px;
+        }
+        .subject i {
+            font-size: 20px;
+        }
+        .chem-red {
+            color: #d32f2f;
+        }
+        .math-red {
+            color: #d32f2f;
+        }
+        .code-block {
+            background: #ccc;
+            margin-top: 25px;
+            padding: 18px 0 18px 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            color: #3f4ebe;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-box">
+        <h1>Định dạng văn bản</h1>
+        <div class="subject">
+            <b>Hóa học:</b> <i>Nước:</i><span class="chem-red"> H<sub>2</sub>O </span>; <i>Axit Sunfuric:</i> <span class="chem-red">H<sub>2</sub>SO<sub>4</sub></span>
+        </div>
+        <div class="subject">
+            <b>Toán học:</b> <i>Phương trình bậc 2:</i> <span class="math-red">ax<sup>2</sup> + bx + c = 0</span>
+        </div>
+        <div class="subject">
+            <b>Tin học:</b> <i>Vòng lặp For.</i>
+        </div>
+        <div class="code-block">
+            For i = 0 To 10<br><br>
+            <span style="display: inline-block;margin-left: 200px;">Tong = Tong + 1<br><br>
+            <span style="display: inline-block;margin-left: -330px;">Next
+        </div>
+    </div>
+</body>
+</html>
